@@ -1,0 +1,13 @@
+{
+  "name": "block-txt",
+  "version": "1.0.0",
+  "description": "Block Text Generators for Characters And Words!",
+  "main": "blocktxt.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": ["cli", "block text generator", "nodejs block text"],
+  "author": "Andrew Bloese (andrewbloese-00)",
+  "license": "ISC",
+  "type": "module"
+}
