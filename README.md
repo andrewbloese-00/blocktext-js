@@ -72,9 +72,7 @@ You should see it print a single character, then a word, then cycle through the 
 
 ## Plans
 - [ ] add support for lowercase characters
-- [ ] add support for the rest of the qwerty keyboard
-- [ ] left right up down and diagonal arrows
-- [ ] (maybe) math symbols!
+- [x] left right up down arrows
 - [ ] add individual pattern coloring 
 - [ ] add underline / bold / italic modes
 

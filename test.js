@@ -1,6 +1,15 @@
 import { TESTS } from "./index.js";
 
 async function main() {
+
+  TESTS.SINGLE_CHAR("√")
+  TESTS.SINGLE_CHAR("∆")
+  TESTS.SINGLE_CHAR("≤")
+  TESTS.SINGLE_CHAR("≥")
+  TESTS.WORD("BUILT BY...","/")
+  TESTS.WORD("dev@andrewbloese.me","|")
+  await new Promise((res) => setTimeout(res, 2000));
+
   console.log("Display Block Character...");
   TESTS.SINGLE_CHAR();
   await new Promise((res) => setTimeout(res, 500));
